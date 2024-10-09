@@ -1,0 +1,153 @@
+name: Remake Edit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * *"
+
+jobs:
+  RemakeEdit:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+      SING_BOX_VERSION: 1.10.0-beta.9  # 你可以根据需要修改版本号
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.7
+      with:
+        repository: Auniquesir/Tools
+        path: Tools-repo
+        
+    # Run Forks Script
+    - name: Run Forks Script
+      run: |
+        curl https://raw.githubusercontent.com/Auniquesir/Box/X/script/os.sh | sh
+
+    # 编辑文件
+    - name: Edit Egern sgmodule
+      run: |
+        cd Tools-repo/Egern/Modules
+        find . -type f -name '*.sgmodule' -print0 | while IFS= read -r -d $'\0' file; do
+          if [ -f "$file" ]; then
+            # 删除空行和注释
+            sed -i '/^\s*$/d;/^#/d' "$file"
+            
+            # 添加规则名称和行数统计
+            file_names=$(basename "$file")
+            line_count=$(wc -l < "$file")
+            awk ' /^[[]/ { print ""; print; next } /^[^#]/ { if(NF) print }' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # 编辑文件
+    - name: Edit Loon plugin
+      run: |
+        cd Tools-repo/Loon/plugin
+        find . -type f -name '*.plugin' -print0 | while IFS= read -r -d $'\0' file; do
+          if [ -f "$file" ]; then        
+            # 删除空行和注释
+            sed -i '/^\s*$/d;/^#/d' "$file"
+
+            # 添加规则名称和行数统计
+            file_names=$(basename "$file")
+            line_count=$(wc -l < "$file")
+            awk ' /^[[]/ { print ""; print; next } /^[^#]/ { if(NF) print }' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+ 
+    # 编辑文件
+    - name: Edit QuantumultX conf list
+      run: |
+        cd Tools-repo/QuantumultX/Rewrite
+        find . -type f \( -name '*.list' -o -name '*.conf' \) -print0 | while IFS= read -r -d $'\0' file; do
+          if [ -f "$file" ]; then          
+            # 删除空行和注释
+            sed -i '/^\s*$/d;/^#/d' "$file"
+
+            # 添加规则名称和行数统计
+            file_names=$(basename "$file")
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+            echo "$file has been updated with rule name and count."
+          else
+            echo "$file not found."
+          fi
+        done
+ 
+
+    # 编辑文件
+    - name: Edit Shadowrocket sgmodule
+      run: |
+        cd Tools-repo/Shadowrocket/module
+        find . -type f -name '*.sgmodule' -print0 | while IFS= read -r -d $'\0' file; do
+          if [ -f "$file" ]; then
+            # 删除空行和注释
+            sed -i '/^\s*$/d;/^#/d' "$file"
+
+            # 添加规则名称和行数统计
+            file_names=$(basename "$file")
+            line_count=$(wc -l < "$file")
+            awk ' /^[[]/ { print ""; print; next } /^[^#]/ { if(NF) print }' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+ 
+    # 编辑文件
+    - name: Edit Stash stoverride
+      run: |
+        cd Tools-repo/Stash/Override
+        find . -type f -name '*.stoverride' -print0 | while IFS= read -r -d $'\0' file; do
+          if [ -f "$file" ]; then
+            # 删除空行和注释
+            sed -i '/^\s*$/d;/^#/d' "$file"
+
+            # 添加规则名称和行数统计
+            file_names=$(basename "$file")
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    # 添加并提交更改
+    - name: Add and Commit
+      run: |
+        cd Tools-repo
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin X
+          git push origin X
+        else
+          echo "No changes to commit."
+        fi
+
+    # 清理工作流
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

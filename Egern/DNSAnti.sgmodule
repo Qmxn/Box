@@ -1,0 +1,35 @@
+#!name=DNS防泄露
+#!desc=DNS防泄露
+#!icon=https://raw.githubusercontent.com/Auniquesir/X/X/icon/DNSAnti.png
+
+[Rule]
+# DNS Leak from Shadowrocket Default
+DOMAIN-SUFFIX,dnsleaktest.com,节点选择
+DOMAIN-SUFFIX,dnsleak.com,节点选择
+DOMAIN-SUFFIX,expressvpn.com,节点选择
+DOMAIN-SUFFIX,nordvpn.com,节点选择
+DOMAIN-SUFFIX,surfshark.com,节点选择
+DOMAIN-SUFFIX,ipleak.net,节点选择
+DOMAIN-SUFFIX,perfect-privacy.com,节点选择
+DOMAIN-SUFFIX,browserleaks.com,节点选择
+DOMAIN-SUFFIX,browserleaks.org,节点选择
+DOMAIN-SUFFIX,vpnunlimited.com,节点选择
+DOMAIN-SUFFIX,whoer.net,节点选择
+DOMAIN-SUFFIX,whrq.net,节点选择
+# Astrill
+DOMAIN-SUFFIX,astrill.com,节点选择
+DOMAIN-SUFFIX,astrill.org,节点选择
+DOMAIN-SUFFIX,dnsleak.asn247.net,节点选择
+# Surfshark
+DOMAIN-SUFFIX,surfshark.com,节点选择
+DOMAIN-SUFFIX,surfsharkdns.com,节点选择
+# Pixelscan
+DOMAIN-SUFFIX,pixelscan.net,节点选择
+# PING0
+DOMAIN,ipv4.ping0.cc,节点选择
+DOMAIN,ipv6.ping0.cc,节点选择
+# IPAPI.CO
+DOMAIN-SUFFIX,ipapi.co,节点选择
+# BrowserScan
+DOMAIN,ip-scan.adspower.net,节点选择
+

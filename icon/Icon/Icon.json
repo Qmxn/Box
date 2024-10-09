@@ -1,0 +1,818 @@
+{
+    "name": "Icon",
+    "description": "互联网公开图标，版权属于原作者和商标持有人",
+    "icons": [
+        {
+            "name": "Loon",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Loon.png"
+        },
+        {
+            "name": "Loon",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Loon-TieTie.png"
+        },
+        {
+            "name": "Loon",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Loon-TestFlight.png"
+        },
+        {
+            "name": "Loon",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Loon-BB-Quietly.png"
+        },
+        {
+            "name": "Loon",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Loon-BB-Loudly.png"
+        },
+        {
+            "name": "Loon",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Loon-BB-VeryLoudly.png"
+        },
+        {
+            "name": "LoonLite",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LoonLite.png"
+        },
+        {
+            "name": "QuantumultX",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/QuantumultX-01.png"
+        },
+        {
+            "name": "QuantumultX",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/QuantumultX-02.png"
+        },
+        {
+            "name": "Quantumult",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Quantumult.png"
+        },
+        {
+            "name": "Sing-Box",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Sing-Box.png"
+        },
+        {
+            "name": "Stash",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Stash.png"
+        },
+        {
+            "name": "Surge",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Surge.png"
+        },
+        {
+            "name": "Shadowrocket",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Shadowrocket.png"
+        },
+        {
+            "name": "Egern",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Egern-01.png"
+        },
+        {
+            "name": "Egern",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Egern-02.png"
+        },
+        {
+            "name": "Hiddify",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Hiddify-Blue.png"
+        },
+        {
+            "name": "Hiddify",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Hiddify-Red.png"
+        },
+        {
+            "name": "Hiddify",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Hiddify-Yellow.png"
+        },
+        {
+            "name": "Hiddify",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Hiddify-Green.png"
+        },
+        {
+            "name": "v2rayN-blue",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/v2rayN-blue.png"
+        },
+        {
+            "name": "v2rayN-red",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/v2rayN-red.png"
+        },
+        {
+            "name": "v2rayN-purple",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/v2rayN-purple.png"
+        },
+        {
+            "name": "Clash",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Clash.png"
+        },
+      {
+            "name": "ClashMeta",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ClashMeta-01.png"
+        },
+        {
+            "name": "ClashX",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ClashX.png"
+        },
+        {
+            "name": "Surfboard",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Surfboard-01.png"
+        },
+        {
+            "name": "Surfboard",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Surfboard-02.png"
+        },
+        {
+            "name": "1.1.1.1",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/1.1.1.1-01.png"
+        },
+        {
+            "name": "1.1.1.1",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/1.1.1.1-02.png"
+        },
+        {
+            "name": "1.1.1.1",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/1.1.1.1-03.png"
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Cloudflare.png"
+        },
+        {
+            "name": "CloudflareWorkers",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/CloudflareWorkers.png"
+        },
+        {
+            "name": "Advertising",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Advertising.png"
+        },
+        {
+            "name": "AdBlack",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AdBlack.png"
+        },
+        {
+            "name": "AdOff",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AdOff.png"
+        },
+        {
+            "name": "Network",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Network.png"
+        },
+        {
+            "name": "Wi-Fi",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Wi-Fi.png"
+        },
+        {
+            "name": "Cellular",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Cellular.png"
+        },
+        {
+            "name": "Netisp",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Netisp.png"
+        },
+        {
+            "name": "NodeTools",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/NodeTools.png"
+        },
+        {
+            "name": "CookieInfo",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/CookieInfo.png"
+        },
+        {
+            "name": "TaskCheck-in",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/TaskCheck-in.png"
+        },
+        {
+            "name": "Final",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Final.png"
+        },
+        {
+            "name": "Web_301",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_301.png"
+        },
+        {
+            "name": "Web_302",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_302.png"
+        },
+        {
+            "name": "Web_403",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_403.png"
+        },
+        {
+            "name": "Web_404",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_404.png"
+        },
+        {
+            "name": "Web_500",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_500.png"
+        },
+        {
+            "name": "Web_502",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_502.png"
+        },
+        {
+            "name": "Web_redirect",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_redirect.png"
+        },
+        {
+            "name": "Web_warning",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_warning.png"
+        },
+        {
+            "name": "Web_www",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Web_www.png"
+        },
+        {
+            "name": "AppStore",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AppStore_01.png"
+        },
+	{
+            "name": "AppStore",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AppStore_02.png"
+        },
+	{
+            "name": "AppStore",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AppStore_03.png"
+        },
+        {
+            "name": "TestFlight",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/TestFlight-01.png"
+        },
+	{
+            "name": "TestFlight",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/TestFlight-02.png"
+        },
+	{
+            "name": "AppleWeather",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AppleWeather.png"
+        },
+        {
+            "name": "ChinaMobile CMCC",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ChinaMobile-CMCC.png"
+        },
+        {
+            "name": "ChinaTelecom CTCC",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ChinaTelecom-CTCC.png"
+        },
+        {
+            "name": "ChinaUnicom CUCC",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ChinaUnicom-CUCC.png"
+        },
+        {
+            "name": "ChinaBroadnet CBN",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ChinaBroadnet-CBN.png"
+        },
+        {
+            "name": "QQ",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/QQ.png"
+        },
+        {
+            "name": "WeChat Weixin",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/WeChat.png"
+        },
+        {
+            "name": "DingTalk Dingding",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/DingTalk.png"
+        },
+        {
+            "name": "TikTok DouYin",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/TikTok.png"
+        },
+        {
+            "name": "AliyunDrive",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AliyunDrive.png"
+        },
+        {
+            "name": "BaiduNetdisk",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/BaiduNetDisk.png"
+        },
+        {
+            "name": "ThunderCloudDisk Xunlei",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ThunderCloudDisk.png"
+        },
+        {
+            "name": "123Pan",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/123Pan.png"
+        },
+        {
+            "name": "FeijiPan",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FeijiPan.png"
+        },
+        {
+            "name": "115Netdisk",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/115Netdisk.png"
+        },
+        {
+            "name": "CtfileDrive",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/CtfileDrive.png"
+        },
+        {
+            "name": "PikPak",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/PikPak.png"
+        },
+        {
+            "name": "GoogleDrive",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/GoogleDrive.png"
+        },
+        {
+            "name": "OneDrive",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/OneDrive.png"
+        },
+        {
+            "name": "Amap Gaode",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Amap.png"
+        },
+        {
+            "name": "Railway12306",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Railway12306.png"
+        },
+        {
+            "name": "Weibo",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Weibo.png"
+        },
+        {
+            "name": "Weibo",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Weibo_intl.png"
+        },
+        {
+            "name": "VVebo",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/VVebo.png"
+        },
+        {
+            "name": "RedBook XiaoHhongShu",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/RedBook.png"
+        },
+        {
+            "name": "Alipay Zhifubao",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Alipay-2024.png"
+        },
+        {
+            "name": "Taobao",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Taobao.png"
+        },
+        {
+            "name": "Goofish Xianyu",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Goofish.png"
+        },
+        {
+            "name": "JingDong",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Jingdong.png"
+        },
+        {
+            "name": "CaiNiao",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Cainiao.png"
+        },
+        {
+            "name": "iCost",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/iCost.png"
+        },
+        {
+            "name": "SparkMail",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SparkMail.png"
+        },
+        {
+            "name": "AppRaven",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/AppRaven.png"
+        },
+        {
+            "name": "Demus",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Demus.png"
+        },
+        {
+            "name": "QQMusic",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/QQMusic.png"
+        },
+        {
+            "name": "NeteaseMusic",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/NeteaseMusic.png"
+        },
+        {
+            "name": "LMP",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LMP.png"
+        },
+        {
+            "name": "LightPlayer",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LightPlayer.png"
+        },
+        {
+            "name": "Listenify",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Listenify.png"
+        },
+        {
+            "name": "TencentVideo WeTV",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/TencentVideo.png"
+        },
+        {
+            "name": "IQIYI",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/IQIYI.png"
+        },
+        {
+            "name": "Youku",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Youku.png"
+        },
+        {
+            "name": "MangoTV",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/MangoTV.png"
+        },
+        {
+            "name": "Bilibili",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/BilibiliRed.png"
+        },
+        {
+            "name": "Bilibili",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/BilibiliBlue.png"
+        },
+	{
+            "name": "Bilibili",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/BilibiliWhite.png"
+        },
+	{
+            "name": "Ezviz",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Ezviz.png"
+        },
+        {
+            "name": "XPTV",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/XPTV.png"
+        },
+        {
+            "name": "CMSPlayer",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/CMSPlayer-1.0.15.png"
+        },
+        {
+            "name": "SteveWatch",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SteveWatch-01.png"
+        },
+        {
+            "name": "SteveWatch",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SteveWatch-02.png"
+        },
+        {
+            "name": "APTV",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/APTV.png"
+        },
+        {
+            "name": "Fileball",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Fileball.png"
+        },
+        {
+            "name": "Infuse",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Infuse.png"
+        },
+        {
+            "name": "VidHub",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/VidHub-01.png"
+        },
+	{
+            "name": "VidHub",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/VidHub-02.png"
+        },
+	{
+            "name": "Forward",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Forward.png"
+        },
+        {
+            "name": "yybx",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/yybx.png"
+        },
+        {
+            "name": "yyb",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/yyb.png"
+        },
+        {
+            "name": "iemc",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/iemc.png"
+        },
+        {
+            "name": "tvok",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/tvok.png"
+        },
+        {
+            "name": "Conflux",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Conflux.png"
+        },
+	{
+            "name": "Emby",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Emby-01.png"
+        },
+	{
+            "name": "Emby",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Emby-02.png"
+        },
+        {
+            "name": "IThome",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/IThome.png"
+        },
+        {
+            "name": "CoolApk Kuan",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/CoolApk.png"
+        },
+        {
+            "name": "Zhihu",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Zhihu.png"
+        },
+        {
+            "name": "Himalaya",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Himalaya.png"
+        },
+        {
+            "name": "Shenmezhidemai",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Zhidemai.png"
+        },
+        {
+            "name": "ColorfulCloudsWeather Caiyun",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ColorfulCloudsWeather.png"
+        },
+        {
+            "name": "ColorfulCloudsWeatherPro Caiyun",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ColorfulCloudsWeatherPro.png"
+        },
+        {
+            "name": "LEMO FM",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LEMO%20FM.png"
+        },
+	{
+            "name": "Memento",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Memento-light.png"
+        },
+	{
+            "name": "Memento",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Memento-dark.png"
+        },
+        {
+            "name": "Toolbox",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Toolbox.png"
+        },
+        {
+            "name": "Userscripts",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Userscripts.png"
+        },
+        {
+            "name": "Tampermonkey",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Tampermonkey.png"
+        },
+	{
+            "name": "Currency",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Currency.png"
+        },
+	{
+            "name": "Apple",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Apple.png"
+        },
+	{
+            "name": "Microsoft",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Microsoft.png"
+        },
+	{
+            "name": "ChatGPT OpenAI",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ChatGPT.png"
+        },
+        {
+            "name": "Arc",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Arc.png"
+        },
+        {
+            "name": "Arc Search",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ArcSearch-01.png"
+        },
+        {
+            "name": "Arc Search",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/ArcSearch-02.png"
+        },
+        {
+            "name": "Quark",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Quark.png"
+        },
+        {
+            "name": "Alook",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Alook.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Google.png"
+        },
+        {
+            "name": "GoogleChrome",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/GoogleChrome.png"
+        },
+        {
+            "name": "MicrosoftEdge",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/MicrosoftEdge.png"
+        },
+        {
+            "name": "Firefox",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Firefox.png"
+        },
+        {
+            "name": "Firefox",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FirefoxNightly.png"
+        },
+        {
+            "name": "Firefox",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FirefoxFocus.png"
+        },
+        {
+            "name": "Speedtest",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Speedtest.png"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Instagram.png"
+        },
+        {
+            "name": "X",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/X-01.png"
+        },
+	{
+            "name": "X",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/X-02.png"
+        },
+	{
+            "name": "Telegram",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Telegram-01.png"
+        },
+	{
+            "name": "Telegram",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Telegram-02.png"
+        },
+        {
+            "name": "Swiftgram",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Swiftgram.png"
+        },
+        {
+            "name": "iMe",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/iMe.png"
+        },
+        {
+            "name": "Nicegram",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Nicegram-01.png"
+        },
+        {
+            "name": "Nicegram",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Nicegram-02.png"
+        },
+        {
+            "name": "Turrit",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Turrit.png"
+        },
+        {
+            "name": "Spotify",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Spotify.png"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/YouTube.png"
+        },
+        {
+            "name": "Netflix",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Netflix.png"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/GitHub.png"
+        },
+        {
+            "name": "GitLab",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/GitLab-JiHu.png"
+        },
+        {
+            "name": "GitBlur",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/GitBlur.png"
+        },
+        {
+            "name": "Sub-Store",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Sub-Store.png"
+        },
+        {
+            "name": "Script Hub",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Script-Hub-light.png"
+        },
+        {
+            "name": "Script Hub",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Script-Hub-dark.png"
+        },
+        {
+            "name": "BoxJs",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/BoxJs.png"
+        },
+        {
+            "name": "RevenueCat",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/RevenueCat-icon.png"
+        },
+        {
+            "name": "iTunes",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/iTunes.png"
+        },
+        {
+            "name": "Face ID",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FaceID-Black.png"
+        },
+        {
+            "name": "Face ID",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FaceID-Grey.png"
+        },
+        {
+            "name": "Face ID",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FaceID-Blue.png"
+        },
+        {
+            "name": "Face ID",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FaceID-Green.png"
+        },
+        {
+            "name": "Limbo",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Limbo-01.png"
+        },
+        {
+            "name": "Limbo",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Limbo-02.png"
+        },
+        {
+            "name": "SSID-HK",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SSID-HK.png"
+        },
+        {
+            "name": "SSID-JP",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SSID-JP.png"
+        },
+        {
+            "name": "SSID-KR",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SSID-KR.png"
+        },
+        {
+            "name": "SSID-SG",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SSID-SG.png"
+        },
+        {
+            "name": "SSID-TW",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SSID-TW.png"
+        },
+        {
+            "name": "SSID-US",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/SSID-US.png"
+        },
+        {
+            "name": "LOAD-HK",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LOAD-HK.png"
+        },
+        {
+            "name": "LOAD-JP",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LOAD-JP.png"
+        },
+        {
+            "name": "LOAD-KR",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LOAD-KR.png"
+        },
+        {
+            "name": "LOAD-SG",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LOAD-SG.png"
+        },
+        {
+            "name": "LOAD-TW",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LOAD-TW.png"
+        },
+        {
+            "name": "LOAD-US",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/LOAD-US.png"
+        },
+        {
+            "name": "Urltest-HK",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Urltest-HK.png"
+        },
+        {
+            "name": "Urltest-JP",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Urltest-JP.png"
+        },
+        {
+            "name": "Urltest-KR",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Urltest-KR.png"
+        },
+        {
+            "name": "Urltest-SG",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Urltest-SG.png"
+        },
+        {
+            "name": "Urltest-TW",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Urltest-TW.png"
+        },
+        {
+            "name": "Urltest-US",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/Urltest-US.png"
+        },
+        {
+            "name": "FAULT-HK",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FAULT-HK.png"
+        },
+        {
+            "name": "FAULT-JP",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FAULT-JP.png"
+        },
+        {
+            "name": "FAULT-KR",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FAULT-KR.png"
+        },
+        {
+            "name": "FAULT-SG",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FAULT-SG.png"
+        },
+        {
+            "name": "FAULT-TW",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FAULT-TW.png"
+        },
+        {
+            "name": "FAULT-US",
+            "url": "https://github.com/Auniquesir/Box/tree/X/icon/Icon/FAULT-US.png"
+        }
+    ]
+}

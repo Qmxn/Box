@@ -1,0 +1,54 @@
+name: Fork AdRules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+  
+jobs:
+  Fork-FLITER-list:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.5
+    
+      # 拉取文件
+    - name: Clone
+      run: |
+        mkdir -p Rule
+        curl -L -o Rule/adrules.list https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list
+        curl -L -o Rule/qx.conf https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf
+        curl -L -o Rule/adrules_domainset.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt
+        curl -L -o Rule/anti-ad-quanx.txt https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-quanx.txt
+        curl -L -o Rule/anti-ad-surge.txt https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
+        curl -L -o Rule/Anti-ad.yaml https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Anti-ad.yaml
+        mv Rule/adrules.list Rule/Adrules.list
+        mv Rule/qx.conf Rule/Adrulesqx.list
+        mv Rule/adrules_domainset.txt Rule/Adrules.txt
+        mv Rule/anti-ad-quanx.txt Rule/Antiadqx.list
+        mv Rule/anti-ad-surge.txt Rule/Antiad.list
+        mv Rule/Anti-ad.yaml Rule/Antiad.yaml
+      env:
+         TZ: Asia/Shanghai
+        
+    - name: Add and Commits
+      run: |
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin X
+          git push origin X  
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2
