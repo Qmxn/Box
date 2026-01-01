@@ -1,0 +1,17 @@
+▎ 防止TG加载转圈
+
+Loon: 
+IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
+
+Surge：
+IP-CIDR,95.161.76.100/31,REJECT,'notification-text="Fuck Telegram"',pre-matching,no-resolve                                            
+
+QuanX:
+ip-cidr,95.161.76.100/31, reject
+
+Egern:
+rules:
+- ip_cidr:
+    match: 95.161.76.100/31
+    policy: REJECT
+    no_resolve: true
