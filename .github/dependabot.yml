@@ -5,11 +5,23 @@
 
 version: 2
 updates:
+  # 1. GitHub Actions 自动更新
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"  # 或者可以设置为 "monthly"
-      timezone: "Asia/Shanghai"
+      interval: "weekly"
+      day: "monday"
       time: "08:00"
-    pull-request-branch-name:
-      separator: "-"
+      timezone: "Asia/Shanghai"
+    
+    # --- 优化项 ---
+    open-pull-requests-limit: 5
+    
+    groups:
+      actions-dependencies:
+        patterns:
+          - "*"
+          
+    labels:
+      - "dependencies"
+      - "github-actions"
